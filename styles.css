@@ -38,7 +38,7 @@ body {
     color: #F9FAF8;
 }
 
-.hero, .footer {
+.header, .hero, .footer {
     background-color: #1F2937;
     height: 74;
 }
