@@ -10,7 +10,6 @@
 body, .body, .info, .quote, footer, .hero .left, .info .card, .sign-up .left {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
 }
 
 .header, .hero, .info .content, .sign-up {
