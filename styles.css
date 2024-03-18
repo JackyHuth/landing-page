@@ -37,6 +37,8 @@ body {
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-logo {
@@ -64,6 +66,11 @@ body {
     color: #E5E7EB;
 }
 
+.hero img {
+    width: 200px;
+    height: auto;
+}
+
 .sign-up, .button {
     background-color: #3882F6;
 }
@@ -76,6 +83,8 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 
 .quote .h2 {
