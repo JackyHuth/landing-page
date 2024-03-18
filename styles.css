@@ -6,6 +6,33 @@
     font-family: Roboto, Helvetica, sans-serif;
 }
 
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.body {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.hero {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -46,30 +73,4 @@
     font-weight: light;
     font-style: italic;
     color: #1F2937;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    display: flex;
-}
-
-.body {
-    display: flex;
-    flex: 1 1 auto;
-}
-
-.hero {
-    display: flex;
-}
-
-.info {
-    display: flex;
-}
-
-.footer {
-    display: flex;
 }
