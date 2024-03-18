@@ -5,41 +5,38 @@
 * {
     font-family: Roboto, Helvetica, sans-serif;
 }
+/*__________________________________________*/
 
-body {
+body, .body, .info, .quote, footer, .hero .left, .info .card, .sign-up .left {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
 }
 
-.header {
+.header, .hero, .info .content, .sign-up {
     display: flex;
+    flex: 1;
 }
 
-.body {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
+.info, .info .content, .footer {
+    justify-content: center;
+    align-items: center;
 }
 
-.hero {
-    display: flex;
+.link {
+    list-style-type: none;
 }
 
-.info {
-    display: flex;
-}
+/*__________________________________________*/
+
+
 
 .info img {
     height: 75px;
     width: 75px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* color and font prerequisites */
 
 .header-logo {
     font-size: 24px;
@@ -51,13 +48,9 @@ body {
     height: 74;
 }
 
-.hero, .footer {
-    flex-shrink: 0;
-}
-
 .hero .h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -77,19 +70,17 @@ body {
 
 .info .h2 {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #1F2937;
 }
 
 .quote {
     background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
 }
 
-.quote .h2 {
+.quote .p {
     font-size: 36px;
-    font-weight: light;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937;
 }
