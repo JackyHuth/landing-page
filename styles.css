@@ -87,6 +87,10 @@ body {
     text-align: center;
 }
 
+.info p {
+    width: 125px;
+}
+
 .info img {
     height: 125px;
     width: 125px;
@@ -170,6 +174,7 @@ button {
     background: #3882F6;
     border-radius: 25px;
     padding: 20px;
+    color: #E5E7EB;
 }
 
 .info h2 {
