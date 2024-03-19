@@ -89,7 +89,7 @@ body {
 }
 
 .info p {
-    width: 125px;
+    width: 135px;
 }
 
 .info img {
@@ -104,6 +104,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.quote p {
+    margin: 50px 200px;
 }
 
 .quote h4 {
