@@ -2,9 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
-* {
-    font-family: Roboto, Helvetica, sans-serif;
-}
 /*__________________________________________*/
 
 
@@ -37,7 +34,10 @@ body, .body, .info, .quote, footer, .hero .left, .info .card, .sign-up .left {
 /*__________________________________________*/
 
 body {
-    margin: 0;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 
