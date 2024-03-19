@@ -131,7 +131,8 @@ body {
 }
 
 button {
-    width: 150px;
+    width: 125px;
+    height: auto;
 }
 
 .footer {
@@ -149,7 +150,6 @@ button {
 .header, .hero, .footer {
     background: #1F2937;
     color: #F9FAF8;
-    
 }
 
 .header, .footer {
@@ -172,10 +172,10 @@ button {
 }
 
 .sign-up, .button {
+    color: #E5E7EB;
     background: #3882F6;
     border-radius: 25px;
     padding: 20px;
-    color: #E5E7EB;
 }
 
 .info h2 {
