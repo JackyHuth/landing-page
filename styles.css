@@ -40,12 +40,106 @@ body {
     flex-direction: column;
 }
 
+.header {
+    display: flex;
+    flex: 1;
+}
+
+.header .left {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hero .right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info .content {
+    display: flex;
+    justify-content:space-around;
+}
+
+.info .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .info img {
     height: 125px;
     width: 125px;
     border-radius: 25px;
     border: 3px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .h4 {
+    align-items: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    flex: 1;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* color and font prerequisites */
