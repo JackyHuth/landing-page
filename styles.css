@@ -98,10 +98,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.quote p {
-    width: 50%;
+    width: 50%
 }
 
 .quote h4 {
@@ -110,11 +107,10 @@ body {
 
 .sign-up {
     display: flex;
-    flex: 1;
     width: 60%;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 25px 50px;
 }
 
 .sign-up .left {
@@ -127,6 +123,10 @@ body {
 .sign-up .right {
     display: flex;
     justify-content: flex-start;
+}
+
+button {
+    width: 75px;
 }
 
 .footer {
@@ -162,7 +162,7 @@ body {
 }
 
 .hero img {
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 
