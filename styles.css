@@ -53,9 +53,13 @@ body {
 
 .header .right {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header li {
+    display: inline;
+    list-style-type: none;
 }
 
 .body {
@@ -68,6 +72,7 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .hero .left {
@@ -83,7 +88,9 @@ body {
 
 .info {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding: 15px;
 }
 
 .info .content {
@@ -108,11 +115,14 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
+}
+
+.quote p {
     justify-content: center;
     align-items: center;
 }
 
-.quote .h4 {
+.quote h4 {
     align-items: flex-end;
 }
 
@@ -122,6 +132,7 @@ body {
     width: 80%;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .sign-up .left {
