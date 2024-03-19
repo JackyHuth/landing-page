@@ -4,33 +4,6 @@
 
 /*__________________________________________*/
 
-
-/*
-body, .body, .info, .quote, footer, .hero .left, .info .card, .sign-up .left {
-    display: flex;
-    flex-direction: column;
-}
-
-.header, .hero, .info .content, .sign-up {
-    display: flex;
-    flex: 1;
-}
-
-.info, .footer {
-    justify-content: center;
-    align-items: center;
-}
-
-.info .content {
-    justify-content: space-around;
-    align-items: center;
-}
-
-.link {
-    list-style-type: none;
-}
-*/
-
 /*__________________________________________*/
 
 body {
@@ -57,7 +30,7 @@ body {
     align-items: center;
 }
 
-.header li {
+.header ul {
     display: inline;
     list-style-type: none;
 }
