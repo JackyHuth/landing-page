@@ -4,8 +4,6 @@
 
 /*__________________________________________*/
 
-/*__________________________________________*/
-
 body {
     font-family: Roboto, Helvetica, sans-serif;
     margin: 0px;
@@ -33,11 +31,14 @@ body {
 .header ul {
     display: inline;
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .body {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 
 .hero {
