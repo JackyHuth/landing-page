@@ -104,10 +104,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.quote p {
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .quote h4 {
