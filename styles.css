@@ -29,10 +29,13 @@ body {
 }
 
 .header ul {
-    display: inline;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+}
+
+.header li {
+    display: inline;
 }
 
 .body {
@@ -89,11 +92,12 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote p {
-    justify-content: center;
-    align-items: center;
+    width: 50%;
 }
 
 .quote h4 {
@@ -103,7 +107,7 @@ body {
 .sign-up {
     display: flex;
     flex: 1;
-    width: 80%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     margin: 15px;
@@ -113,7 +117,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .sign-up .right {
