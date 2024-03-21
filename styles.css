@@ -86,10 +86,11 @@ body {
     align-items: center;
     width: 175px;
     text-align: center;
+    padding: 20px 0px;
 }
 
 .info p {
-    width: 135px;
+    width: 140px;
 }
 
 .info img {
@@ -104,7 +105,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 200px;
+    padding: 75px 500px;
 }
 
 .sign-up {
